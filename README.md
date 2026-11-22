@@ -49,7 +49,7 @@ bench/
 ├── README.md                                  # Complete benchmark documentation
 ├── requirements.txt                           # Python dependencies
 ├── .gitignore                                 # Git ignore configuration
-├── LabOCR.pdf                                 # Official assignment guidelines
+├── LabOCR.pdf                                 # Official assignment guidelines (local only, git-ignored)
 ├── OPRB_Qwen2_5_VL_3B_Test_Evaluation.ipynb   # Baseline evaluation reference (unexecuted template)
 ├── notebooks/                                 # Clean runnable evaluation templates (0 outputs)
 │   ├── 01_eval_qwen2_5_vl_3b.ipynb            # Qwen2.5-VL-3B (4-bit NF4) evaluation template
@@ -79,7 +79,7 @@ bench/
 │       ├── fig2_text_vs_nontext.png           # Performance degradation under text vs. non-text
 │       ├── fig3_occlusion_robustness.png      # Robustness across densities & occlusion types
 │       └── fig4_pareto_tradeoff.png           # Efficiency Pareto frontier (Latency vs. CER)
-└── report/
+└── report/                                    # Technical report folder (local only, git-ignored)
     ├── report.tex                             # IEEE-style 2-column LaTeX report (< 4 A4 pages)
     ├── report.pdf                             # Compiled final PDF report (3 A4 pages)
     └── figures/                               # Embedded figures for LaTeX compilation
