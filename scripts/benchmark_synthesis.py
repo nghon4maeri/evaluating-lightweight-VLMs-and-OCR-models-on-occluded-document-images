@@ -131,26 +131,109 @@ plt.close()
 print(f"Saved: {fig2_path}")
 
 # 5. Figure 3: Robustness across Occlusion Densities & Types
-fig, axes = plt.subplots(1, 2, figsize=(14, 5))
-dens_df = all_df.groupby(["model", "occlusion_density"], as_index=False)["cer"].mean()
-dens_df["density_num"] = dens_df["occlusion_density"].astype(str).str.extract(r"(\d+)").astype(float)
-dens_df = dens_df.sort_values("density_num")
-sns.lineplot(data=dens_df, x="occlusion_density", y="cer", hue="model", marker="o", ax=axes[0])
-axes[0].set_title("CER Across Occlusion Densities")
-axes[0].set_xlabel("Occlusion Density")
-axes[0].set_ylabel("Mean CER")
-axes[0].tick_params(axis="x", rotation=20)
+import re
+def extract_clean_meta(stem):
+    m_dens = re.search(r"(\d+p\d+|\d+)pct", str(stem))
+    dens = f"{m_dens.group(1).replace('p', '.')}%" if m_dens else None
+    raw_type = str(stem).split("__")[0]
+    type_map = {
+        "White_Burnt": "Burnt",
+        "White_Whitener": "Fluid",
+        "Through_Dust": "Dust",
+        "Through_Stamp": "Stamp",
+        "Black_Ink": "Ink",
+        "Sim": "Sim",
+    }
+    return type_map.get(raw_type, raw_type), dens
 
-type_df = all_df.groupby(["occlusion_type", "model"], as_index=False)["cer"].mean()
-sns.barplot(data=type_df, x="occlusion_type", y="cer", hue="model", ax=axes[1])
-axes[1].set_title("CER Across Occlusion Types")
-axes[1].set_xlabel("Occlusion Type")
-axes[1].set_ylabel("Mean CER")
-axes[1].tick_params(axis="x", rotation=25)
-axes[1].legend_.remove()
-plt.tight_layout()
+meta_tuples = [extract_clean_meta(s) for s in all_df["sample_id"]]
+all_df["clean_type"] = [t[0] for t in meta_tuples]
+all_df["clean_density"] = [t[1] for t in meta_tuples]
+
+fig, axes = plt.subplots(1, 2, figsize=(8.2, 3.4), dpi=300)
+model_palette = {
+    "PaddleOCR (PP-OCRv4)": "#1f77b4",
+    "Qwen2.5-VL-3B (4-bit)": "#ff7f0e",
+    "EasyOCR": "#2ca02c",
+    "GOT-OCR-2.0": "#d62728",
+    "SmolVLM-Instruct": "#9467bd",
+}
+model_markers = {
+    "PaddleOCR (PP-OCRv4)": "o",
+    "Qwen2.5-VL-3B (4-bit)": "s",
+    "EasyOCR": "^",
+    "GOT-OCR-2.0": "D",
+    "SmolVLM-Instruct": "v",
+}
+
+# Subplot (a): CER across densities
+dens_valid = all_df[all_df["clean_density"].isin(["0.5%", "1.0%", "2.0%"])].copy()
+dens_summary = dens_valid.groupby(["model", "clean_density"], as_index=False)["cer"].mean()
+dens_summary["dens_num"] = dens_summary["clean_density"].str.replace("%", "").astype(float)
+dens_summary = dens_summary.sort_values(["model", "dens_num"])
+
+for model, grp in dens_summary.groupby("model"):
+    axes[0].plot(
+        grp["clean_density"],
+        grp["cer"],
+        marker=model_markers.get(model, "o"),
+        linewidth=1.8,
+        markersize=5.5,
+        label=model,
+        color=model_palette.get(model, "gray"),
+    )
+
+axes[0].set_title("(a) CER vs. Occlusion Density", fontweight="bold", fontsize=9.5, pad=6)
+axes[0].set_xlabel("Occlusion Density", fontsize=8.5)
+axes[0].set_ylabel("Macro CER (Lower is Better)", fontsize=8.5)
+axes[0].set_ylim(0.2, 1.05)
+axes[0].tick_params(labelsize=8)
+axes[0].grid(True, linestyle="--", alpha=0.5)
+
+# Subplot (b): CER across occlusion types
+type_order = ["Burnt", "Fluid", "Dust", "Stamp", "Ink", "Sim"]
+type_summary = all_df.groupby(["model", "clean_type"], as_index=False)["cer"].mean()
+
+sns.barplot(
+    data=type_summary,
+    x="clean_type",
+    y="cer",
+    hue="model",
+    order=type_order,
+    palette=model_palette,
+    ax=axes[1],
+    edgecolor="black",
+    linewidth=0.5,
+)
+
+axes[1].set_title("(b) CER vs. Occlusion Type", fontweight="bold", fontsize=9.5, pad=6)
+axes[1].set_xlabel("Occlusion Modality", fontsize=8.5)
+axes[1].set_ylabel("Macro CER (Lower is Better)", fontsize=8.5)
+axes[1].set_ylim(0.2, 1.05)
+axes[1].tick_params(labelsize=8)
+axes[1].grid(True, linestyle="--", alpha=0.5, axis="y")
+if axes[1].legend_:
+    axes[1].legend_.remove()
+
+handles, labels = axes[0].get_legend_handles_labels()
+fig.legend(
+    handles,
+    labels,
+    loc="upper center",
+    bbox_to_anchor=(0.5, 1.03),
+    ncol=5,
+    frameon=True,
+    facecolor="white",
+    framealpha=0.9,
+    edgecolor="#cccccc",
+    fontsize=7.5,
+)
+
+plt.tight_layout(rect=[0, 0, 1, 0.94])
 fig3_path = OUTPUT_DIR / "fig3_occlusion_robustness.png"
-plt.savefig(fig3_path, dpi=300)
+plt.savefig(fig3_path, dpi=300, bbox_inches="tight")
+plt.savefig(BASE_DIR.parent / "bench" / "results" / "figures" / "fig3_occlusion_robustness.png", dpi=300, bbox_inches="tight")
+plt.savefig(BASE_DIR.parent / "bench" / "report" / "figures" / "fig3_occlusion_robustness.png", dpi=300, bbox_inches="tight")
 plt.close()
 print(f"Saved: {fig3_path}")
 
