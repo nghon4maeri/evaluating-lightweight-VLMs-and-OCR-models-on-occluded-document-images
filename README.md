@@ -7,7 +7,7 @@
 
 ---
 
-## 1. Overview & Objective
+## Overview & Objective
 
 This repository contains the complete experimental code, evaluation pipelines, quantitative summaries, publication figures, and technical report for benchmarking lightweight **Vision-Language Models (VLMs)** and **Traditional/Pipeline OCR Engines** on heavily occluded document images.
 
@@ -19,7 +19,7 @@ This benchmark evaluates **transcription fidelity** (CER, WER, Bag-of-Words F1) 
 
 ---
 
-## 2. Benchmark Summary Results
+## Benchmark Summary Results
 
 Evaluated across **22,103 pages** on NVIDIA GPU hardware:
 
@@ -42,7 +42,7 @@ Evaluated across **22,103 pages** on NVIDIA GPU hardware:
 
 ---
 
-## 3. Repository Structure
+## Repository Structure
 
 ```
 bench/
@@ -50,15 +50,24 @@ bench/
 ├── requirements.txt                           # Python dependencies
 ├── .gitignore                                 # Git ignore configuration
 ├── LabOCR.pdf                                 # Official assignment guidelines
-├── OPRB_Qwen2_5_VL_3B_Test_Evaluation.ipynb   # Baseline evaluation reference
-├── notebooks/                                 # Individual evaluation notebooks
-│   ├── 01_eval_qwen2_5_vl_3b.ipynb            # Qwen2.5-VL-3B (4-bit NF4) evaluation
-│   ├── 02_eval_got_ocr_2_0.ipynb              # GOT-OCR-2.0 evaluation
-│   ├── 03_eval_smolvlm.ipynb                  # SmolVLM-Instruct evaluation
-│   ├── 04_eval_paddleocr.ipynb                # PaddleOCR PP-OCRv4 evaluation (9k images)
-│   ├── 05_eval_easyocr.ipynb                  # EasyOCR evaluation (9k images)
-│   └── 06_benchmark_synthesis.ipynb           # Synthesis notebook for cross-model aggregation
+├── OPRB_Qwen2_5_VL_3B_Test_Evaluation.ipynb   # Baseline evaluation reference (unexecuted template)
+├── notebooks/                                 # Clean runnable evaluation templates (0 outputs)
+│   ├── 01_eval_qwen2_5_vl_3b.ipynb            # Qwen2.5-VL-3B (4-bit NF4) evaluation template
+│   ├── 02_eval_got_ocr_2_0.ipynb              # GOT-OCR-2.0 evaluation template
+│   ├── 03_eval_smolvlm.ipynb                  # SmolVLM-Instruct evaluation template
+│   ├── 04_eval_paddleocr.ipynb                # PaddleOCR PP-OCRv4 evaluation template
+│   ├── 05_eval_easyocr.ipynb                  # EasyOCR evaluation template
+│   ├── 06_benchmark_synthesis.ipynb           # Cross-model synthesis & figure generation template
+│   └── executed/                              # Fully executed notebooks with outputs, tables & charts
+│       ├── 01_eval_qwen2_5_vl_3b_executed.ipynb
+│       ├── 02_eval_got_ocr_2_0_executed.ipynb
+│       ├── 03_eval_smolvlm_executed.ipynb
+│       ├── 04_eval_paddleocr_executed.ipynb
+│       ├── 05_eval_easyocr_executed.ipynb
+│       └── 06_benchmark_synthesis_executed.ipynb
 ├── scripts/
+│   ├── audit_notebooks.py                     # Automated auditor verifying JSON validity & AST syntax
+│   ├── standardize_all_notebooks.py           # Formats & synchronizes clean templates and executed logs
 │   └── benchmark_synthesis.py                 # Standalone script generating 300 DPI figures
 ├── results/
 │   ├── summary_comparison_table.csv           # Macro performance metrics across 5 models
@@ -72,13 +81,14 @@ bench/
 │       └── fig4_pareto_tradeoff.png           # Efficiency Pareto frontier (Latency vs. CER)
 └── report/
     ├── report.tex                             # IEEE-style 2-column LaTeX report (< 4 A4 pages)
-    ├── report.pdf                             # Compiled final PDF report
+    ├── report.pdf                             # Compiled final PDF report (3 A4 pages)
     └── figures/                               # Embedded figures for LaTeX compilation
 ```
 
 ---
 
-## 4. How to Reproduce
+
+## How to Reproduce
 
 ### 1. Installation
 ```bash
