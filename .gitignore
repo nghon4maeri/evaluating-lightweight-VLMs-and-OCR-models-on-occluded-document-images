@@ -41,4 +41,3 @@ Thumbs.db
 # Excluded from git (Report & Lab Guidelines)
 report/
 LabOCR.pdf
-*.pdf
