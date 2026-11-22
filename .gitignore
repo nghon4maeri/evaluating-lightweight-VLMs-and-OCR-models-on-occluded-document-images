@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and checkpoints
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+.cache/
+*.tmp
+*.log
+
+# Large datasets & raw tars (store in external data folder)
+oprb_dataset/
+*.tar.gz
+*.tar
+data/
+raw/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Environment
+.venv/
+env/
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
