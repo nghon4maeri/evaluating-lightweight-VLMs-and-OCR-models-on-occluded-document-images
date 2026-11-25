@@ -1,5 +1,79 @@
 category,sample_id,occlusion_type,occlusion_density,batch_id,model_id,status,error,prediction,ground_truth,latency_sec,generated_tokens,possibly_truncated,cer,wer,token_precision,token_recall,token_f1,gt_words,pred_words,model,model_type,params_m,clean_type,clean_density,case_group
-text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,Qwen/Qwen2.5-VL-3B-Instruct,ok,,ex].,ex]]. 9,1.334096999999019,3,False,0.4285714285714285,1.0,0.0,0.0,0.0,2,1,Qwen2.5-VL-3B (4-bit),VLM,3000.0,Burnt,1.0%,severe_failure
+text,White_Whitener__1p0pct__104.tar_1804.05908.gz_evg_pol_v3_23_ori,White_Whitener,1p0pct,104.tar_1804.05908.gz_evg_pol_v3_23_ori,PaddleOCR-PP-OCRv4,ok,,"[BO99] C.M.Bender and S.A.Orszag.Aduanced mathematical methods for scientists and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. [BP32] A.Bloch and G.Polya.On the Roots of Certain Algebraic Equations.Proc. London Math. Soc., S2-33(1):102,1932. [BRS86] A.T.Bharucha-Reid and M.Sambandham.Random polymomials.Probability and Mathematical Statistics.Academic Press, Inc., Orlando, FL,1986. [BZ17] R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. Electron,Commun.Probab.,22:10pp.,2017. [CP17] V.H.Can and V.H.Pham.Persistence probability of random weyl polynomial. arXiv:1710.01090,2017. [DH15] M.H.Duong and T.A.Han.On the expected numbow quilibria in a multi- player multi-strategy evolutionary game.Dyngo amesandApplications, pages 1-23, 2015. [DH16] M. H. Duong and T. A. Han. Analysis of the expected density of internal equilibria in random evolutionary multi-player multi-strategy games. Journal of Mathematical Biology,73(6):1727-1760, 2016. [DM15] A.Dembo and S.Mukherjee.No zero-crossings for random polynomials and the heat equation.Ann.Probab.,43(1):85-118, 02 2015. [DPSZ02] A.Dembo,B.Poonen Q-M.Shao, and O.Zeitouni.Random polynomials havingfewornorea reros.Journal of the American Mathematical Society, 15(4):857892,2002. [DTH17a] M. H. Duong, H. M. , and T,A,Han,On thedistribution of the number of internal equilibria in lndom evolutionary games.arxzu:1708.01672,2017. [DTH17b] M. H. Duong, H. M. Tran, and T. A. Han. On the expected number of internal equilibria in random evolutionary games with correlated payoff matrix.arxiv: 1708.01672,2017. [DV17] Y.Do and V.Vu.Central limit theoremsforthereal zeros ofweyl polynomials. arxiw:1707.09276,2017. [Far98] K.Farahmand.Topics in Random Polynomials. ""n & Hall/CRC Re- search Notes in Mathematics Series. Taylor & Francis, oud. [FH92] D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. Journal ofEconomicTheory,57(2):420-441,1992. 24","[BO99] C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. [BP32] A. Bloch and G. Po´lya. On the Roots of Certain Algebraic Equations. Proc. London Math. Soc., S2-33(1):102, 1932. [BRS86] A. T. Bharucha-Reid and M. Sambandham. Random polynomials. Probability and Mathematical Statistics. Academic Press, Inc., Orlando, FL, 1986. [BZ17] R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. Electron. Commun. Probab., 22:10 pp., 2017. [CP17] V. H. Can and V. H. Pham. Persistence probability of random weyl polynomial. arXiv: 1710. 01090 , 2017. [DH15] M. H. Duong and T. A. Han. On the expected number of equilibria in a multi- player multi-strategy evolutionary game. Dynamic Games and Applications, pages 1–23, 2015. [DH16] M. H. Duong and T. A. Han. Analysis of the expected density of internal equilibria in random evolutionary multi-player multi-strategy games. Journal of Mathematical Biology, 73(6):1727–1760, 2016. [DM15] A. Dembo and S. Mukherjee. No zero-crossings for random polynomials and the heat equation. Ann. Probab., 43(1):85–118, 02 2015. [DPSZ02] A. Dembo, B. Poonen, Q.-M. Shao, and O. Zeitouni. Random polynomials having few or no real zeros. Journal of the American Mathematical Society, 15(4):857–892, 2002. [DTH17a] M. H. Duong, H. M. Tran, and T. A. Han. On the distribution of the number of internal equilibria in random evolutionary games. arXiv: 1708. 01672 , 2017. [DTH17b] M. H. Duong, H. M. Tran, and T. A. Han. On the expected number of internal equilibria in random evolutionary games with correlated payoﬀ matrix. arXiv: 1708. 01672 , 2017. [DV17] Y. Do and V. Vu. Central limit theorems for the real zeros of weyl polynomials. arXiv: 1707. 09276 , 2017. [Far98] K. Farahmand. Topics in Random Polynomials. Chapman & Hall/CRC Re- search Notes in Mathematics Series. Taylor & Francis, 1998. [FH92] D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. Journal of Economic Theory, 57(2):420–441, 1992. 24",0.9657414510002128,230,False,0.0644230769230769,0.43125,0.7956521739130434,0.571875,0.6654545454545454,320,230,PaddleOCR (PP-OCRv4),OCR Pipeline,12.0,Fluid,1.0%,best_transcription
+text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,PaddleOCR-PP-OCRv4,ok,,exl].,ex]]. 9,0.1488321440001527,1,False,0.4285714285714285,1.0,0.0,0.0,0.0,2,1,PaddleOCR (PP-OCRv4),OCR Pipeline,12.0,Burnt,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1408.5358.gz_generalized_cox_rings_43_ori,Through_Dust,1p0pct,107.tar_1408.5358.gz_generalized_cox_rings_43_ori,PaddleOCR-PP-OCRv4,ok,,ULRICH DERENTHAL AND MARTA PIEROPAN,44 ULRICH DERENTHAL AND MARTA PIEROPAN,0.1982445620005819,5,False,0.0789473684210526,0.1666666666666666,1.0,0.8333333333333334,0.9090909090909092,6,5,PaddleOCR (PP-OCRv4),OCR Pipeline,12.0,Dust,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1507.03120.gz_arxiv_23_ori,Through_Dust,1p0pct,107.tar_1507.03120.gz_arxiv_23_ori,PaddleOCR-PP-OCRv4,ok,,"[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potetials, Mod. Phys. Lett. B, 28, 1450016 (2014) 24","[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potetials, Mod. Phys. Lett. B, 28, 1450016 (2014) 24",0.3203264579997267,29,False,0.0,0.0,1.0,1.0,1.0,29,29,PaddleOCR (PP-OCRv4),OCR Pipeline,12.0,Dust,1.0%,best_transcription
+text,White_Whitener__1p0pct__104.tar_1804.05908.gz_evg_pol_v3_23_ori,White_Whitener,1p0pct,104.tar_1804.05908.gz_evg_pol_v3_23_ori,EasyOCR-en,ok,,"[BO99] C.M; Beuder aud $ A. Orszag- Advanced mathematical methods for scientists and engincers: [: Asymptotic methods and perturbation thcory: Springer, 1999. [BP32] Bloch and G Polya. On the Roots of Certain Algebraic Eqquations. Proc. London Math. Soc-. 52-33(1):102. 1932. [BRSS6] A;T Blarucha-Reicl ad M; Sambandham; Random polynomials. Probability ad  Mat hcuatica] Statistics_ Academic Press, Luc . Orlandlo FL, 1986 (BZI7] Butot Ac ZeitOuui. Universal large deviations for kac polynomials_ Electron. Commun. Probab . 22.10 pp  . 2017 CPI7] V,H Can all V. H. Pham. Persistence probability of raudlm wcyl polynomial, atXiv: 710 _ 01090 '2017, (DHIS] M# Duong Ad T Han. On the expected numlio"" ~Quilibria in multi- plaver multi-strategy evolutionary game. Dynar aO$ and Applications. pagOS 2 2015 IDHIG] M: # Duong and T. Han. Analysis of the expected deusity of internal equilibria in random evolutionary multi-plaver multi-strategy games: Journal of Mathematicat Biology: 73(6):1727-1760, 2016 [DMIS] Dembo ad $. Mukherjee. No zero-crossings for raudom polynomials and the heat eqquation. Ann. Probab- 43(1).85-H18 , 02 *2015. [DPSZO2] Dembo. B Poonen. Q-: Shao_ ad 0. Zeitouni: Kaudom polynomials luaving fcw Or Iio rC? CrO Journal of the American Mathematical Society: 15( 4).857 842, 20u2, [DTHZa] M: H; Duong; H M; and T, A; Han, On the distriluution of lc nuber of internal equililria in ~udom evolutionary games; arXiv: 1708 01672 _ 2017, IDTHIZb] M: H Duong: H Tran and T A. Han; Ou the eXpcrtol Hbr ol internal eqquilibia i ranclom evolutionaly games with correlatedl pavoff matrix. atriv: 1708 01672 2017. [DVI7] Y. Do and V. Vu Central limit theorems for the real zeros of weyl polvnomials. arXiv: 1707 . 09276 2017 [Far98] Farahmand: Topies Random Polynomials 4: Hall/CRC Re- scarch Notes in Mathematics Series. Tarlor & Francis '6 [FH92| D. Fudenberg and C. Harris   Evolutionary dynamics with aggregate shocks. Journal of Economic Theory: 57(2):420-441, 1992.","[BO99] C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. [BP32] A. Bloch and G. Po´lya. On the Roots of Certain Algebraic Equations. Proc. London Math. Soc., S2-33(1):102, 1932. [BRS86] A. T. Bharucha-Reid and M. Sambandham. Random polynomials. Probability and Mathematical Statistics. Academic Press, Inc., Orlando, FL, 1986. [BZ17] R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. Electron. Commun. Probab., 22:10 pp., 2017. [CP17] V. H. Can and V. H. Pham. Persistence probability of random weyl polynomial. arXiv: 1710. 01090 , 2017. [DH15] M. H. Duong and T. A. Han. On the expected number of equilibria in a multi- player multi-strategy evolutionary game. Dynamic Games and Applications, pages 1–23, 2015. [DH16] M. H. Duong and T. A. Han. Analysis of the expected density of internal equilibria in random evolutionary multi-player multi-strategy games. Journal of Mathematical Biology, 73(6):1727–1760, 2016. [DM15] A. Dembo and S. Mukherjee. No zero-crossings for random polynomials and the heat equation. Ann. Probab., 43(1):85–118, 02 2015. [DPSZ02] A. Dembo, B. Poonen, Q.-M. Shao, and O. Zeitouni. Random polynomials having few or no real zeros. Journal of the American Mathematical Society, 15(4):857–892, 2002. [DTH17a] M. H. Duong, H. M. Tran, and T. A. Han. On the distribution of the number of internal equilibria in random evolutionary games. arXiv: 1708. 01672 , 2017. [DTH17b] M. H. Duong, H. M. Tran, and T. A. Han. On the expected number of internal equilibria in random evolutionary games with correlated payoﬀ matrix. arXiv: 1708. 01672 , 2017. [DV17] Y. Do and V. Vu. Central limit theorems for the real zeros of weyl polynomials. arXiv: 1707. 09276 , 2017. [Far98] K. Farahmand. Topics in Random Polynomials. Chapman & Hall/CRC Re- search Notes in Mathematics Series. Taylor & Francis, 1998. [FH92] D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. Journal of Economic Theory, 57(2):420–441, 1992. 24",1.677530470999045,306,False,0.1399038461538461,0.553125,0.4934640522875817,0.471875,0.4824281150159744,320,306,EasyOCR,OCR Pipeline,25.0,Fluid,1.0%,best_transcription
+text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,EasyOCR-en,ok,,exll:,ex]]. 9,0.0881769080006051,1,False,0.7142857142857143,1.0,0.0,0.0,0.0,2,1,EasyOCR,OCR Pipeline,25.0,Burnt,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1408.5358.gz_generalized_cox_rings_43_ori,Through_Dust,1p0pct,107.tar_1408.5358.gz_generalized_cox_rings_43_ori,EasyOCR-en,ok,,ULRICT DERENTHAL At MAFETA PIEROPAN,44 ULRICH DERENTHAL AND MARTA PIEROPAN,0.1243418349986313,5,False,0.2105263157894736,0.6666666666666666,0.4,0.3333333333333333,0.3636363636363636,6,5,EasyOCR,OCR Pipeline,25.0,Dust,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1507.03120.gz_arxiv_23_ori,Through_Dust,1p0pct,107.tar_1507.03120.gz_arxiv_23_ori,EasyOCR-en,ok,,"[42] Cordourier-Maruri. G  Gupta; V and de Coss, R:: Recurrence in resonant trans- mission of thcone-dlimeusional ATTAY of delta potetials Mod, Fhvs Lett. BS 228 1450016 (2014)","[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potetials, Mod. Phys. Lett. B, 28, 1450016 (2014) 24",0.2380705940013285,27,False,0.1304347826086956,0.4827586206896552,0.5555555555555556,0.5172413793103449,0.5357142857142857,29,27,EasyOCR,OCR Pipeline,25.0,Dust,1.0%,best_transcription
+text,White_Whitener__1p0pct__104.tar_1804.05908.gz_evg_pol_v3_23_ori,White_Whitener,1p0pct,104.tar_1804.05908.gz_evg_pol_v3_23_ori,HuggingFaceTB/SmolVLM-Instruct,ok,,"BO99 C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists and engineers: Asymptotic methods and perturbation theory. Springer, 1999.
+BP32 A. Bloch and G. P´olya. On the roots of certain algebraic equations. London Math. Soc., S2-33(1):102, 1932.
+BRS86 A. T. Bharucha Reid and M. Sambandham. Random polynomials. Probability and Mathematical Statistics. Academic Press, Inc., Orlando, FL, 1986.
+BZ17 R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. Electron. Commun. Probab., 22:10 pp., 2017.
+CP17 V. H. Can and V. H. Pham. Persistence probability of random weyl polynomial. arXiv:1701.01090, 2017.
+DH15 M. H. Duong and T. A. Han. On the expected number of equilibria in random evolutionary games. Dyn. Games and Applications, pages 1–23, 2015.
+DH16 M. H. Duong and T. A. Han. Analysis of the expected density of internal equilibria in random multi-player strategy games. Journal of Mathematical Biology, 73(6):1727–1760, 2016.
+DM15 A. Dembo and S. Mukherjee. No zero-crossings for random polynomials and the heat equation. Ann. Probab., 43(1):81–115, 02 2015.
+DPSZ02 A. Dembo, B. Peonen, Q.-M. Shao, and O. Zeitouni. Random polynomials having few or no zeros. Journal of the American Mathematical Society, 15(4):857–892, 2002.
+DTH17a M. H. Duong, H. M. Tran, and T. A. Han. On the distribution of the number of internal equilibria in random evolutionary games with correlated payoff matrix. arXiv:1708.01672, 2017.
+DTH17b M. H. Duong, H. M. Tran, and T. A. Han. On the expected number of internal equilibria in random evolutionary games with correlated payoff matrix. arXiv:1708.01672, 2017.
+DV17 Y. Do and V. Vu. Central limit theorems for the real zeros of weyl polynomials. arxiv:1709.09276, 2017.
+Far98 K. Farahmand. Topics in Random Polynomials. n & Hall/CRC Re- search Notes in Mathematics Series. Taylor & Francis, 1998.
+FH92 D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. Journal of Economic Theory, 57(2):420–441, 1992.","[BO99] C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. [BP32] A. Bloch and G. Po´lya. On the Roots of Certain Algebraic Equations. Proc. London Math. Soc., S2-33(1):102, 1932. [BRS86] A. T. Bharucha-Reid and M. Sambandham. Random polynomials. Probability and Mathematical Statistics. Academic Press, Inc., Orlando, FL, 1986. [BZ17] R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. Electron. Commun. Probab., 22:10 pp., 2017. [CP17] V. H. Can and V. H. Pham. Persistence probability of random weyl polynomial. arXiv: 1710. 01090 , 2017. [DH15] M. H. Duong and T. A. Han. On the expected number of equilibria in a multi- player multi-strategy evolutionary game. Dynamic Games and Applications, pages 1–23, 2015. [DH16] M. H. Duong and T. A. Han. Analysis of the expected density of internal equilibria in random evolutionary multi-player multi-strategy games. Journal of Mathematical Biology, 73(6):1727–1760, 2016. [DM15] A. Dembo and S. Mukherjee. No zero-crossings for random polynomials and the heat equation. Ann. Probab., 43(1):85–118, 02 2015. [DPSZ02] A. Dembo, B. Poonen, Q.-M. Shao, and O. Zeitouni. Random polynomials having few or no real zeros. Journal of the American Mathematical Society, 15(4):857–892, 2002. [DTH17a] M. H. Duong, H. M. Tran, and T. A. Han. On the distribution of the number of internal equilibria in random evolutionary games. arXiv: 1708. 01672 , 2017. [DTH17b] M. H. Duong, H. M. Tran, and T. A. Han. On the expected number of internal equilibria in random evolutionary games with correlated payoﬀ matrix. arXiv: 1708. 01672 , 2017. [DV17] Y. Do and V. Vu. Central limit theorems for the real zeros of weyl polynomials. arXiv: 1707. 09276 , 2017. [Far98] K. Farahmand. Topics in Random Polynomials. Chapman & Hall/CRC Re- search Notes in Mathematics Series. Taylor & Francis, 1998. [FH92] D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. Journal of Economic Theory, 57(2):420–441, 1992. 24",17.80761888500274,722,False,0.0740384615384615,0.159375,0.8918032786885246,0.85,0.8704,320,305,SmolVLM-Instruct,VLM,2200.0,Fluid,1.0%,best_transcription
+text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,HuggingFaceTB/SmolVLM-Instruct,ok,,wall.,ex]]. 9,0.3824116019968642,3,False,0.8571428571428571,1.0,0.0,0.0,0.0,2,1,SmolVLM-Instruct,VLM,2200.0,Burnt,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1408.5358.gz_generalized_cox_rings_43_ori,Through_Dust,1p0pct,107.tar_1408.5358.gz_generalized_cox_rings_43_ori,HuggingFaceTB/SmolVLM-Instruct,ok,,44 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111,44 ULRICH DERENTHAL AND MARTA PIEROPAN,25.07797069600201,1024,True,26.84210526315789,0.8333333333333334,0.5,0.1666666666666666,0.25,6,2,SmolVLM-Instruct,VLM,2200.0,Dust,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1507.03120.gz_arxiv_23_ori,Through_Dust,1p0pct,107.tar_1507.03120.gz_arxiv_23_ori,HuggingFaceTB/SmolVLM-Instruct,ok,,"Cordourier-Marui, G., Gupta, V., and de Coss, R.: Recurence in resonant trans- mission of the one-dimensional array of delta potentials, Mod. Phys. Lett. B, 28, 1450016 (2014).","[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potetials, Mod. Phys. Lett. B, 28, 1450016 (2014) 24",1.9342684080038453,64,False,0.0597826086956521,0.2068965517241379,0.8518518518518519,0.7931034482758621,0.8214285714285715,29,27,SmolVLM-Instruct,VLM,2200.0,Dust,1.0%,best_transcription
+text,White_Whitener__1p0pct__104.tar_1804.05908.gz_evg_pol_v3_23_ori,White_Whitener,1p0pct,104.tar_1804.05908.gz_evg_pol_v3_23_ori,stepfun-ai/GOT-OCR2_0,ok,,"[BO99] 
+C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists 
+and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. 
+[BP32] 
+A. Bloch and G. Pólya. On the Roots of Certain Algebraic Equations. Proc. 
+London Math. Soc., S2-33(1):102, 1932. 
+[BR586] 
+A. T. Bharucha-Reid and M. Sambandham. Random polynomials. Probability 
+and Mathematical Statistics. Academic Press, Inc., Orlando, FL, 1986. 
+[BZ17] 
+R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. 
+Electron. Commun. Probab., 22:10 pp., 2017. 
+[CP17] 
+V. H. Can and V. H. Pham. Persistence probability of random weyl polynomial. 
+arXiv: 1710.01090, 2017. 
+[DH15] 
+M. H. Duong and T. A. Han. On the expected number quilibria in a multi-
+player multi-strategy evolutionary game. Dyno~ mes and Applications, 
+pages 1-23, 2015. 
+[DH16] 
+M. H. Duong and T. A. Han. Analysis of the expected density of internal 
+equilibria in random evolutionary multi-player multi-strategy games. Journal 
+of Mathematical Biology, 73(6):1727-1760, 2016. 
+[DM15] 
+A. Dembo and S. Mukherjee. No zero-crossings for random polynomials and 
+the heat equation. Ann. Probab., 43(1):85-118, 02 2015. 
+[DPSZ02] 
+A. Dembo, B. Poonen, Q.-M. Shao, and O. Zeitouni. Random polynomials 
+having few or no res 
+eros. Journal of the American Mathematical Society, 
+15(4):857-892, 2002. 
+[DTH17a] 
+M. H. Duong, H. M. 
+, and T. A. Han. On the distribution of the number of 
+internal equilibria in ..dom evolutionary games. arXiv: 1708. 01672, 2017. 
+[DTH17b] 
+M. H. Duong, H. M. Tran, and T. A. Han. On the expected number of internal 
+equilibria in random evolutionary games with correlated payoff matrix. arXiv: 
+1708. 01672, 2017. 
+[DV17] 
+Y. Do and V. Vu. Central limit theorems for the real zeros of weyl polynomials. 
+arXiv: 1707. 09276, 2017. 
+[Far98] 
+K. Farahmand. Topics in Random Polynomials. 
+un & Hall/CRC Re-
+search Notes in Mathematics Series. Taylor & Francis, i. 
+[FH92] 
+D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. 
+Journal of Economic Theory, 57(2):420-441, 1992. 
+24","[BO99] C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. [BP32] A. Bloch and G. Po´lya. On the Roots of Certain Algebraic Equations. Proc. London Math. Soc., S2-33(1):102, 1932. [BRS86] A. T. Bharucha-Reid and M. Sambandham. Random polynomials. Probability and Mathematical Statistics. Academic Press, Inc., Orlando, FL, 1986. [BZ17] R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. Electron. Commun. Probab., 22:10 pp., 2017. [CP17] V. H. Can and V. H. Pham. Persistence probability of random weyl polynomial. arXiv: 1710. 01090 , 2017. [DH15] M. H. Duong and T. A. Han. On the expected number of equilibria in a multi- player multi-strategy evolutionary game. Dynamic Games and Applications, pages 1–23, 2015. [DH16] M. H. Duong and T. A. Han. Analysis of the expected density of internal equilibria in random evolutionary multi-player multi-strategy games. Journal of Mathematical Biology, 73(6):1727–1760, 2016. [DM15] A. Dembo and S. Mukherjee. No zero-crossings for random polynomials and the heat equation. Ann. Probab., 43(1):85–118, 02 2015. [DPSZ02] A. Dembo, B. Poonen, Q.-M. Shao, and O. Zeitouni. Random polynomials having few or no real zeros. Journal of the American Mathematical Society, 15(4):857–892, 2002. [DTH17a] M. H. Duong, H. M. Tran, and T. A. Han. On the distribution of the number of internal equilibria in random evolutionary games. arXiv: 1708. 01672 , 2017. [DTH17b] M. H. Duong, H. M. Tran, and T. A. Han. On the expected number of internal equilibria in random evolutionary games with correlated payoﬀ matrix. arXiv: 1708. 01672 , 2017. [DV17] Y. Do and V. Vu. Central limit theorems for the real zeros of weyl polynomials. arXiv: 1707. 09276 , 2017. [Far98] K. Farahmand. Topics in Random Polynomials. Chapman & Hall/CRC Re- search Notes in Mathematics Series. Taylor & Francis, 1998. [FH92] D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. Journal of Economic Theory, 57(2):420–441, 1992. 24",36.21193949799999,801,False,0.0211538461538461,0.084375,0.939297124600639,0.91875,0.928909952606635,320,313,GOT-OCR-2.0,VLM (OCR-spec),580.0,Fluid,1.0%,best_transcription
 text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,stepfun-ai/GOT-OCR2_0,ok,,"\begin{tikzpicture}
 \draw[line width=1.04pt,color=brown,opacity=0.3] (-2.56,0.79) -- (0.85,0.79);
     \draw[line width=1.04pt,color=brown,opacity=0.3] (-2.56,0.79) -- (-0.99,4.58);
@@ -13,339 +87,41 @@ text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0
     \node at (-3.76,0.79) [left,color=brown,opacity=0.3] {$ex$};
     \draw[-triangle 45,line width=1.04pt,color=brown,opacity=0.3] (0.85,0.79) -- (0.85,4.58);
     \node at (0.85,0.79) [right,color=brown,opacity=0.3] {$v_1$};
-\end{tikzpicture}",ex]]. 9,24.135682988000557,510,False,134.0,32.0,0.0,0.0,0.0,2,64,GOT-OCR2.0,VLM (OCR),580.0,Burnt,1.0%,severe_failure
-text,White_Burnt__1p0pct__102.tar_1507.00299.gz_PhD_thesis_ETH_arxiv_136_ori,White_Burnt,1p0pct,102.tar_1507.00299.gz_PhD_thesis_ETH_arxiv_136_ori,stepfun-ai/GOT-OCR2_0,ok,,"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-",132,33.49465239200072,1024,True,170.33333333333334,256.0,0.0,0.0,0.0,1,256,GOT-OCR2.0,VLM (OCR),580.0,Burnt,1.0%,severe_failure
-text,Through_Dust__0p5pct__106.tar_1606.01701.gz_main9_20_ori,Through_Dust,0p5pct,106.tar_1606.01701.gz_main9_20_ori,stepfun-ai/GOT-OCR2_0,ok,,"for a different penalty or prior distribution specification for bond prediction.
-5 Discussion
-By exploiting the fundamental duality between regularization penalties and prior distribu-
-tions, we provide a MAP approach that jointly regularizes both expected values and variance-
-covariance matrices for the high-dimensional VAR and SURsystems. Also, we use an iterative prox-
-imal algorithm that solves two convex subproblems on the predictor coefficients and the variance-
-covariance matrix for maximizing the posterior mode or penalized likelihood. Moreover, for the
-curs
-curs of dimensionality about the variance-covariance matrix, we introduce a Lasso-tilted inverse
-Wishart prior for regularization.
-Our regularization approach offers several computational and empirical advantages, which
-include MAP's computational convenience over traditional MCMC procedures, the regularization-
-path plots for prior sensitivity analysis to forecasting power, and the possibility of building a
-high-dimension VAR for the model uncertainty and feedback effects. Furthermore, a regulariza-
-tion penalty using shrinkage priors, such as double-exponential distribution, provides many new
-empirical insights of variable selection in the Bayesian predictive analysis.
-In the equity-premium prediction example, we demonstrate the change in out-of-sample pre-
-diction performance and orthogonal impulse response due to the change of specification in shrink-
-age priors. We find the risk premium forecasts are sensitive to the regularization penalty or the
-prior hyper-parameters in the Bayesian language. We also find significant predictability of excess
-S&P 500 returns only using book-to-market ratio, CAY, and T-bill rates when implementing the
-market-timing strategies.
-The trade-off is we obtain only a posterior-mode prediction instead of the full posterior distri-
-bution. Consequently, one caveat is we do not fully account for parameter uncertainty as in Kandel
-and Stambaugh (1996) and Barberis (2000). Although our results are quantitatively similar to their
-full Bayesian analysis, our regularized estimation can be computationally faster than MCMC pro-
-cedures. Moreover, we can easily model the parameter sparsity in our Lasso specification, and we
-provide full prior sensitivity analysis rather having to specify the prior hyper-parameters.
-Our approach builds on previously underexploited relationships between prior hyper-parameter
-21","for a different penalty or prior distribution speciﬁcation for bond prediction. 5 Discussion By exploiting the fundamental duality between regularization penalties and prior distribu- tions, we provide a MAP approach that jointly regularizes both expected values and variance- covariance matrices for the high-dimensional VAR and SUR systems. Also, we use an iterative prox- imal algorithm that solves two convex subproblems on the predictor coefﬁcients and the variance- covariance matrix for maximizing the posterior mode or penalized likelihood. Moreover, for the curse of dimensionality about the variance-covariance matrix, we introduce a Lasso-tilted inverse Wishart prior for regularization. Our regularization approach offers several computational and empirical advantages, which include MAP’s computational convenience over traditional MCMC procedures, the regularization- path plots for prior sensitivity analysis to forecasting power, and the possibility of building a high-dimension VAR for the model uncertainty and feedback effects. Furthermore, a regulariza- tion penalty using shrinkage priors, such as double-exponential distribution, provides many new empirical insights of variable selection in the Bayesian predictive analysis. In the equity-premium prediction example, we demonstrate the change in out-of-sample pre- diction performance and orthogonal impulse response due to the change of speciﬁcation in shrink- age priors. We ﬁnd the risk premium forecasts are sensitive to the regularization penalty or the prior hyper-parameters in the Bayesian language. We also ﬁnd signiﬁcant predictability of excess S&P 500 returns only using book-to-market ratio, CAY, and T-bill rates when implementing the market-timing strategies. The trade-off is we obtain only a posterior-mode prediction instead of the full posterior distri- bution. Consequently, one caveat is we do not fully account for parameter uncertainty as in Kandel and Stambaugh (1996) and Barberis (2000). Although our results are quantitatively similar to their full Bayesian analysis, our regularized estimation can be computationally faster than MCMC pro- cedures. Moreover, we can easily model the parameter sparsity in our Lasso speciﬁcation, and we provide full prior sensitivity analysis rather having to specify the prior hyper-parameters. Our approach builds on previously underexploited relationships between prior hyper-parameter 21",21.27808710799945,471,False,0.0028794734677087,0.0150602409638554,0.9879518072289156,0.9879518072289156,0.9879518072289156,332,332,GOT-OCR2.0,VLM (OCR),580.0,Dust,0.5%,best_transcription
-text,Sim__110.tar_1606.03508.gz_prelim_68_ori,Sim,110.tar_1606.03508.gz_prelim_68_ori,unknown,stepfun-ai/GOT-OCR2_0,ok,,"[57] Dana Hughes and Reza Zoughi. A method for evaluating the dielectric properties of
-composites using a combined embedded modulated scattering and near-ﬁeld microwave
-nondestructive testing technique. In Proceedings of the 18th IEEE Instrumentation and
-Measurement Technology Conference (IMTC), volume 3, pages 1882–1886. IEEE, May
-2001.
-[58] Dana Hughes and Reza Zoughi. Near-ﬁeld microwave and embedded modulated scat-
-tering technique (mst) for dielectric characterization of materials. In Review of Progress
-in Quantitative Nondestructive Evaluation (QNDE), volume 22, pages 443–448, July
-2002.
-[59] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop-
-erties of materials using a combined embedded modulated scattering and near-ﬁeld
-microwave techniques-part i: Forward model. IEEE Transactions on Instrumentation
-and Measurement, 54(6):2389, December 2005.
-[60] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop-
-erties of materials using a combined embedded modulated scattering and near-ﬁeld
-microwave techniques–part ii: Dielectric property recalculation. IEEE Transactions
-on Instrumentation and Measurement, 54(6):2398–2401, December 2005.
-[61] Nathalie Japkowicz, Stephen José Hanson, and Mark A Gluck. Nonlinear autoassoci-
-ation is not equivalent to pca. Neural Computation, 12(3):531–545, March 2000.
-[62] Erik A Johnson, Heung-Fai Lam, Lambros S Katafygiotis, and James L Beck. Phase i
-iasc-asse structural health monitoring benchmark problem using simulated data. Jour-
-nal of Engineering Mechanics, 130(1):3–15, January 2004.
-[63] Merel M Jung. Towards social touch intelligence: Developing a robust system for
-automatic touch recognition. In Proceedings of the 16th International Conference on
-Multimodal Interaction (ICMI), pages 344–348. ACM, November 2014.
-[64] Merel M Jung, Xi Laura Cang, Mannes Poel, and Karon E MacLean. Touch chal-
-lenge’15: Recognizing social touch gestures. In Proceedings of the 2015 ACM on In-
-ternational Conference on Multimodal Interaction, pages 387–390. ACM, November
-2015.
-[65] Merel M Jung, Ronald Poppe, Mannes Poel, and Dirk KJ Heylen. Touching the void-
-introducing cost: Corpus of social touch. In Proceedings of the 16th International
-Conference on Multimodal Interaction (ICMI), pages 120–127. ACM, November 2014.
-[66] Mohsen Kaboli, Alex Long, and Gordon Cheng. Humanoids learn touch modalities
-identiﬁcation via multi-modal robotic skin and robust tactile descriptors. Advanced
-Robotics, 29(21):1411–1425, November 2015.
-[67] Mohsen Kaboli, Philipp Mittendorfer, Vincent Hugel, and Gordon Cheng. Humanoids
-learn object properties from robust tactile feature descriptors via multi-modal artiﬁcial
-skin. In 14th IEEE-RAS International Conference on Humanoid Robots (Humanoids),
-pages 187–192. IEEE, November 2014.
-69","[57] Dana Hughes and Reza Zoughi. A method for evaluating the dielectric properties of composites using a combined embedded modulated scattering and near-ﬁeld microwave nondestructive testing technique. In Proceedings of the 18th IEEE Instrumentation and Measurement Technology Conference (IMTC), volume 3, pages 1882–1886. IEEE, May 2001. [58] Dana Hughes and Reza Zoughi. Near-ﬁeld microwave and embedded modulated scat- tering technique (mst) for dielectric characterization of materials. In Review of Progress in Quantitative Nondestructive Evaluation (QNDE), volume 22, pages 443–448, July 2002. [59] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop- erties of materials using a combined embedded modulated scattering and near-ﬁeld microwave techniques–part i: Forward model. IEEE Transactions on Instrumentation and Measurement, 54(6):2389, December 2005. [60] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop- erties of materials using a combined embedded modulated scattering and near-ﬁeld microwave techniques–part ii: Dielectric property recalculation. IEEE Transactions on Instrumentation and Measurement, 54(6):2398–2401, December 2005. [61] Nathalie Japkowicz, Stephen Jos`e Hanson, and Mark A Gluck. Nonlinear autoassoci- ation is not equivalent to pca. Neural Computation, 12(3):531–545, March 2000. [62] Erik A Johnson, Heung-Fai Lam, Lambros S Katafygiotis, and James L Beck. Phase i iasc-asce structural health monitoring benchmark problem using simulated data. Jour- nal of Engineering Mechanics, 130(1):3–15, January 2004. [63] Merel M Jung. Towards social touch intelligence: Developing a robust system for automatic touch recognition. In Proceedings of the 16th International Conference on Multimodal Interaction (ICMI), pages 344–348. ACM, November 2014. [64] Merel M Jung, Xi Laura Cang, Mannes Poel, and Karon E MacLean. Touch chal- lenge’15: Recognizing social touch gestures. In Proceedings of the 2015 ACM on In- ternational Conference on Multimodal Interaction, pages 387–390. ACM, November 2015. [65] Merel M Jung, Ronald Poppe, Mannes Poel, and Dirk KJ Heylen. Touching the void– introducing cost: Corpus of social touch. In Proceedings of the 16th International Conference on Multimodal Interaction (ICMI), pages 120–127. ACM, November 2014. [66] Mohsen Kaboli, Alex Long, and Gordon Cheng. Humanoids learn touch modalities identiﬁcation via multi-modal robotic skin and robust tactile descriptors. Advanced Robotics, 29(21):1411–1425, November 2015. [67] Mohsen Kaboli, Philipp Mittendorfer, Vincent Hugel, and Gordon Cheng. Humanoids learn object properties from robust tactile feature descriptors via multi-modal artiﬁcial skin. In 14th IEEE-RAS International Conference on Humanoid Robots (Humanoids), pages 187–192. IEEE, November 2014. 69",34.90936232999957,830,False,0.0017568517217146,0.0103626943005181,0.9896373056994818,0.9896373056994818,0.9896373056994818,386,386,GOT-OCR2.0,VLM (OCR),580.0,Sim,,best_transcription
-text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,HuggingFaceTB/SmolVLM-Instruct,ok,,wall.,ex]]. 9,0.3824116019968642,3,False,0.8571428571428571,1.0,0.0,0.0,0.0,2,1,SmolVLM-Instruct,VLM,2200.0,Burnt,1.0%,severe_failure
-text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,PaddleOCR-PP-OCRv4,ok,,exl].,ex]]. 9,0.1488321440001527,1,False,0.4285714285714285,1.0,0.0,0.0,0.0,2,1,PaddleOCR (PP-OCRv4),OCR,12.0,Burnt,1.0%,severe_failure
-text,White_Burnt__1p0pct__102.tar_1507.00299.gz_PhD_thesis_ETH_arxiv_136_ori,White_Burnt,1p0pct,102.tar_1507.00299.gz_PhD_thesis_ETH_arxiv_136_ori,PaddleOCR-PP-OCRv4,ok,,132,132,0.1258198049999919,1,False,0.0,0.0,1.0,1.0,1.0,1,1,PaddleOCR (PP-OCRv4),OCR,12.0,Burnt,1.0%,severe_failure
-text,Through_Dust__0p5pct__106.tar_1606.01701.gz_main9_20_ori,Through_Dust,0p5pct,106.tar_1606.01701.gz_main9_20_ori,PaddleOCR-PP-OCRv4,ok,,"fora different penalty or prior distribution specification for bond prediction. 5Discussion By exploiting the fundamental dualityberween'regularization penalties and prior distribu- tions,we providea MAP approach that jointly regularizesboth expected values and variance- covariancematricesforthehigh-dimensionalVARand SURsystems.Also,weusean iterativeprox- imalalgorithmthat solves two convex subproblems on the predictorcoefficients and thevariance- covariance matrix for maximizing the posterior mode or penalized likelihood. Moreover,for the curse of dimensionality about thevariance-covariance matrix,we introduce a Lasso-tilted inverse Wishart priorforregularization. Ourregularization approachoffers severalcomputational and empirical advantages,which include MAP'scomputational convenience over traditional MCMC procedures,the regularization- path plots for prior sensitivity analysis to forecasting power, and the possibility of building a high-dimension VAR for the model uncertainty and feedback effects.Furthermore,a regulariza- tion penalty using shrinkage priors,such as double-exponential distribution,provides many new empiricalinsightsofvariableselection in the Bayesian predictiveanalysis. In the equity-premium prediction example, we demonstrate the change in out-of-sample pre- diction performance andorthogonal impulse response due to thechange of specification in shrink- age priors. We find therisk premium forecasts are sensitive to the regularization penalty or the prior hyper-parameters in the Bayesian language.Wealso find significant predictability of excess S&P 500 returns only usingbook-to-market ratio,CAY, and T-bill rates when implementing the market-timing strategies. The trade-off is we obtain only a posterior-modeprediction instead ofthefull posterior distri- bution.Consequently,one caveat is wedonotfullyaccountforparameteruncertaintyas inKandel and Stambaugh (1996)and Barberis (2000).Although our results arequantitatively similar to their full Bayesian analysis, our regularized estimation can be computationally faster than MCMC pro- cedures.Moreover,wecaneasilymodel theparametersparsity inourLassospecification,andwe provide full prior sensitivity analysis rather having to specify the prior hyper-parameters. Ourapproachbuildson previouslyunderexploited relationshipsbetween priorhyper-parameter 21","for a different penalty or prior distribution speciﬁcation for bond prediction. 5 Discussion By exploiting the fundamental duality between regularization penalties and prior distribu- tions, we provide a MAP approach that jointly regularizes both expected values and variance- covariance matrices for the high-dimensional VAR and SUR systems. Also, we use an iterative prox- imal algorithm that solves two convex subproblems on the predictor coefﬁcients and the variance- covariance matrix for maximizing the posterior mode or penalized likelihood. Moreover, for the curse of dimensionality about the variance-covariance matrix, we introduce a Lasso-tilted inverse Wishart prior for regularization. Our regularization approach offers several computational and empirical advantages, which include MAP’s computational convenience over traditional MCMC procedures, the regularization- path plots for prior sensitivity analysis to forecasting power, and the possibility of building a high-dimension VAR for the model uncertainty and feedback effects. Furthermore, a regulariza- tion penalty using shrinkage priors, such as double-exponential distribution, provides many new empirical insights of variable selection in the Bayesian predictive analysis. In the equity-premium prediction example, we demonstrate the change in out-of-sample pre- diction performance and orthogonal impulse response due to the change of speciﬁcation in shrink- age priors. We ﬁnd the risk premium forecasts are sensitive to the regularization penalty or the prior hyper-parameters in the Bayesian language. We also ﬁnd signiﬁcant predictability of excess S&P 500 returns only using book-to-market ratio, CAY, and T-bill rates when implementing the market-timing strategies. The trade-off is we obtain only a posterior-mode prediction instead of the full posterior distri- bution. Consequently, one caveat is we do not fully account for parameter uncertainty as in Kandel and Stambaugh (1996) and Barberis (2000). Although our results are quantitatively similar to their full Bayesian analysis, our regularized estimation can be computationally faster than MCMC pro- cedures. Moreover, we can easily model the parameter sparsity in our Lasso speciﬁcation, and we provide full prior sensitivity analysis rather having to specify the prior hyper-parameters. Our approach builds on previously underexploited relationships between prior hyper-parameter 21",1.661299764999967,247,False,0.0357877416700946,0.4006024096385542,0.805668016194332,0.5993975903614458,0.687392055267703,332,247,PaddleOCR (PP-OCRv4),OCR,12.0,Dust,0.5%,best_transcription
-text,Sim__110.tar_1606.03508.gz_prelim_68_ori,Sim,110.tar_1606.03508.gz_prelim_68_ori,unknown,PaddleOCR-PP-OCRv4,ok,,"[57] Dana Hughes and Reza Zoughi.A method for evaluating the dielectric properties of composites using a combined embedded modulated scattering and near-fieldmicrowave nondestructive testing technique.In Proceedings of the 18th IEEE Instrumentation and MeasurementTechnologyConference (IMTC),volume 3,pages1882-1886.IEEE,May 2001. [58] Dana Hughes and Reza Zoughi.Near-field microwave and embedded modulated scat- tering technique (mst)for dielectric characterization ofmaterials.In Review of Progress inQuantitativeNondestructive Evaluation(QNDE).volume 22,pages 443-448,July 2002. [59] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop- erties of materials using a combined embedded modulated scattering and near-field microwave techniques-part i:Forward model.IEEE Transactions on Instrumentation andMeasurement, 54(6):2389,December2005. [60] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop- erties of materials using a combined embedded modulated scattering and near-field microwave techniques part i:Dielectric property recalculation.IEEE Transactions on Instrumentation and Measurement, 54(6):2398-2401, December 2005. [6]] Nathalie Japkowicz, Stephen Jose Hanson, and Mark A Gluck. Nonlinear autoassoci- ation is not equivalent to pca.Neural Computation,12(3):531-545, March 2000. [62] Erik A Johnson, Heung-Fai Lam, Lambros S Katafygiotis, and James L Beck.Phasei iasc-asce structural health monitoring benchmark problem using simulated data.Jour- nal ofEngineeringMechanics,130(1):3-15, January2004. [63] Merel M Jung- Towards social touch intelligence: Developing a robust system for automatic touch recognition.In Proceedings of the 16th International Conference on Multimodal Interaction (ICMI),pages 344-348.ACM,November2014. [64] Merel M Jung, Xi Laura Cang, Mannes Poel, and Karon E MacLean. Touch chal- lenge'15:Recognizing social touch gestures. In Proceedings of the 2015 ACM on In- ternational Conference on Multimodal Interaction,pages 387-390.ACM, November 2015. [65] Merel M Jung, Ronald Poppe, Mannes Poel, and Dirk KJ Heylen. Touching the void introducing cost: Corpus of social touch.In Proceedings of the 16th International Conference on Multimodal Interaction (ICMI),pages 120-127.ACM,November 2014. [66] Mohsen Kaboli, Alex Long, and Gordon Cheng. Humanoids learn touch modalities identification via multi-modal robotic skin and robust tactile descriptors:Aduanced Robotics,29(21):1411-1425, November 2015. [67] Mohsen Kaboli, Philipp Mittendorfer, Vincent Hugel, and Gordon Cheng.Humanoids learn object properties from robust tactilefeaturedescriptors via multi-modal artificial skin. In 14th IEEE-RAS International Conference on Humanoid Robots (Humanoids), pages 187-192.IEEE,November 2014. 69","[57] Dana Hughes and Reza Zoughi. A method for evaluating the dielectric properties of composites using a combined embedded modulated scattering and near-ﬁeld microwave nondestructive testing technique. In Proceedings of the 18th IEEE Instrumentation and Measurement Technology Conference (IMTC), volume 3, pages 1882–1886. IEEE, May 2001. [58] Dana Hughes and Reza Zoughi. Near-ﬁeld microwave and embedded modulated scat- tering technique (mst) for dielectric characterization of materials. In Review of Progress in Quantitative Nondestructive Evaluation (QNDE), volume 22, pages 443–448, July 2002. [59] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop- erties of materials using a combined embedded modulated scattering and near-ﬁeld microwave techniques–part i: Forward model. IEEE Transactions on Instrumentation and Measurement, 54(6):2389, December 2005. [60] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop- erties of materials using a combined embedded modulated scattering and near-ﬁeld microwave techniques–part ii: Dielectric property recalculation. IEEE Transactions on Instrumentation and Measurement, 54(6):2398–2401, December 2005. [61] Nathalie Japkowicz, Stephen Jos`e Hanson, and Mark A Gluck. Nonlinear autoassoci- ation is not equivalent to pca. Neural Computation, 12(3):531–545, March 2000. [62] Erik A Johnson, Heung-Fai Lam, Lambros S Katafygiotis, and James L Beck. Phase i iasc-asce structural health monitoring benchmark problem using simulated data. Jour- nal of Engineering Mechanics, 130(1):3–15, January 2004. [63] Merel M Jung. Towards social touch intelligence: Developing a robust system for automatic touch recognition. In Proceedings of the 16th International Conference on Multimodal Interaction (ICMI), pages 344–348. ACM, November 2014. [64] Merel M Jung, Xi Laura Cang, Mannes Poel, and Karon E MacLean. Touch chal- lenge’15: Recognizing social touch gestures. In Proceedings of the 2015 ACM on In- ternational Conference on Multimodal Interaction, pages 387–390. ACM, November 2015. [65] Merel M Jung, Ronald Poppe, Mannes Poel, and Dirk KJ Heylen. Touching the void– introducing cost: Corpus of social touch. In Proceedings of the 16th International Conference on Multimodal Interaction (ICMI), pages 120–127. ACM, November 2014. [66] Mohsen Kaboli, Alex Long, and Gordon Cheng. Humanoids learn touch modalities identiﬁcation via multi-modal robotic skin and robust tactile descriptors. Advanced Robotics, 29(21):1411–1425, November 2015. [67] Mohsen Kaboli, Philipp Mittendorfer, Vincent Hugel, and Gordon Cheng. Humanoids learn object properties from robust tactile feature descriptors via multi-modal artiﬁcial skin. In 14th IEEE-RAS International Conference on Humanoid Robots (Humanoids), pages 187–192. IEEE, November 2014. 69",1.5849881909998658,332,False,0.0267041461700632,0.2616580310880829,0.858433734939759,0.7383419689119171,0.7938718662952646,386,332,PaddleOCR (PP-OCRv4),OCR,12.0,Sim,,best_transcription
-text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,EasyOCR-en,ok,,exll:,ex]]. 9,0.0881769080006051,1,False,0.7142857142857143,1.0,0.0,0.0,0.0,2,1,EasyOCR,OCR,25.0,Burnt,1.0%,severe_failure
-text,White_Burnt__1p0pct__102.tar_1507.00299.gz_PhD_thesis_ETH_arxiv_136_ori,White_Burnt,1p0pct,102.tar_1507.00299.gz_PhD_thesis_ETH_arxiv_136_ori,EasyOCR-en,ok,,02,132,0.0853799180003989,1,False,0.6666666666666666,1.0,0.0,0.0,0.0,1,1,EasyOCR,OCR,25.0,Burnt,1.0%,severe_failure
-text,Through_Dust__0p5pct__106.tar_1606.01701.gz_main9_20_ori,Through_Dust,0p5pct,106.tar_1606.01701.gz_main9_20_ori,EasyOCR-en,ok,,"for different penalty or prior distribution specification for bond Prediction: Discussion By exploiting the fundamental duality between regularization Penalties and prior distribu- tions; we provide MAP approach that jointly regularizes both expected values and variance- covariance matrices for the high-dimensional VAR and SUR systems_ Also; we use an ilerative prOx- imal algorithm that solves two convex subproblems on the predictor coefficients and the variance- covariance matrix for maximizing the posterior mode or penalized likelihood: Moreover; for the curse of dimensionality about the variance ~cOvariance matrix, We introduce Lasso-tilted inverse Wishart prior for regularization. Qur regularization approach offers several computational and empirical advantages, which include MAF"" computational = convenience over traditional MCMC procedures, the regularization- path plots for prior sensitivity analysis to forecasting power; and the possibility of building high-dimension VAR for the model uncertainty and feedback effects: Furthermore regulariza- tion penalty using shrinkage priors, such as double-exponential distribution, provides many neW empirical insights of variable selection in the Bayesian predictive analysis: In the equity - ~premium prediction example, we demonstrate the change in out-of-sample pre- diction performance and orthogonal = impulse response due to the change of specification in shrink- We find the risk premium forecasts are sensitive to the regularization Penalty or the age priors_ in the Bayesian language We also find significant predictability of excess prior hyper-parameters S&P 500 returns only using book-to-market ratio, CAY, and T-bill rates when implementing the market-E timing strategies: The trade-off is we obtain only posterior-mode prediction instead of the full posterior distri- bution; Consequently, one caveat is we do not fully account for parameter uncertainty as in Kandel and Stambaugh (1996) and Barberis (2000). Although our results are quantitatively similar to their full Bayesian analysis our regularized estimation can be computationally faster than MCMC pro- cedures. Moreover; we can easily model the parameter sparsity in our Lasso specification, and we provide full prior sensitivity analysis rather having to specify the Prior E hyper-parameters: Our approach builds on previously underexploited relationships between priorhyper-parameter","for a different penalty or prior distribution speciﬁcation for bond prediction. 5 Discussion By exploiting the fundamental duality between regularization penalties and prior distribu- tions, we provide a MAP approach that jointly regularizes both expected values and variance- covariance matrices for the high-dimensional VAR and SUR systems. Also, we use an iterative prox- imal algorithm that solves two convex subproblems on the predictor coefﬁcients and the variance- covariance matrix for maximizing the posterior mode or penalized likelihood. Moreover, for the curse of dimensionality about the variance-covariance matrix, we introduce a Lasso-tilted inverse Wishart prior for regularization. Our regularization approach offers several computational and empirical advantages, which include MAP’s computational convenience over traditional MCMC procedures, the regularization- path plots for prior sensitivity analysis to forecasting power, and the possibility of building a high-dimension VAR for the model uncertainty and feedback effects. Furthermore, a regulariza- tion penalty using shrinkage priors, such as double-exponential distribution, provides many new empirical insights of variable selection in the Bayesian predictive analysis. In the equity-premium prediction example, we demonstrate the change in out-of-sample pre- diction performance and orthogonal impulse response due to the change of speciﬁcation in shrink- age priors. We ﬁnd the risk premium forecasts are sensitive to the regularization penalty or the prior hyper-parameters in the Bayesian language. We also ﬁnd signiﬁcant predictability of excess S&P 500 returns only using book-to-market ratio, CAY, and T-bill rates when implementing the market-timing strategies. The trade-off is we obtain only a posterior-mode prediction instead of the full posterior distri- bution. Consequently, one caveat is we do not fully account for parameter uncertainty as in Kandel and Stambaugh (1996) and Barberis (2000). Although our results are quantitatively similar to their full Bayesian analysis, our regularized estimation can be computationally faster than MCMC pro- cedures. Moreover, we can easily model the parameter sparsity in our Lasso speciﬁcation, and we provide full prior sensitivity analysis rather having to specify the prior hyper-parameters. Our approach builds on previously underexploited relationships between prior hyper-parameter 21",1.6225376229995163,330,False,0.0431921020156314,0.1355421686746988,0.906060606060606,0.9006024096385542,0.9033232628398792,332,330,EasyOCR,OCR,25.0,Dust,0.5%,best_transcription
-text,Sim__110.tar_1606.03508.gz_prelim_68_ori,Sim,110.tar_1606.03508.gz_prelim_68_ori,unknown,EasyOCR-en,ok,,"Dana Hughes and Reza Zoughi: method for evaluating the dielectric properties of composites using combined embedded modulated scattering and near-field microwave HOnclestructive tecting techuicque In Prxceedings of the ISth IEEE Iustrumentation ad Meosurement Technology Conference (IMTC) volume pages 1882 1886. IEEE: Mat 200_ Dana Hughes and Reza Zoughi. Near-field microwave and] emberlcledd moclated scat- tering technique (mst ) for dielectric characterization of materials_ In Review of Progress Quantitative Nondestructive Evaluation (QNDE) volume 22, pages 13 448_ July 2002. [59] Dana Hughes and Reza Zoughi: novel method for determination of dielectric prop- erties of materials using combined embedded  modulated scattering and near-field micTowave techniques-part Forward model, IEEE Transactions On lwstrumentation ad Measurement. 54(6).2389 . December 2005 [6o] Dana Hughes and Reza Zoughi_ novel method for determination of dielectric prop- erties ofmaterials using combined embedded modulated scattering and near-field [icrowave techniques part ii: Dielectric property recalculation. IEEE Transactions Instrumentation ad Meosurement, 54(6).2398-2401 December '2005 [61]  NNathalie Japkowicz, Stephen Jose Hanson_ ad Mark Gluck:  Nonlinear autoassoci- ation is HOU equivalent t0 pca: Neural Computation. 12(31.531-545_ March 2000. [62] Erik Johuson: Heung-Fai Lam Lambros $ Katalygiotis, #nc JJames L Beck: Phase iasc-asce structural health monitoring benehmark problem using sitlated data_ Jour- wal of Engineering Mechanics 130(1)8 15 , January '200 [. [63]  Merel M  Jung: Towardls social touch intelligence: Developing rolust svstem for automatic touch recognition: In Proceedings of the I6th Internalional Conference Multimodal Interaction (ICMI). pages 344-348. ACM; November 2014. [64]  Merel M Jung; Xi Laura Calg: Mannes Podl. ""d Karon E MacLcan; Touch chal- lenge 15; Recognizing social touch gestures InProceedings of the 2015 ACM on In- ternational Conference on Multimodal Interaction. pages 387-390. ACM; November 22015 [65]  Merel M Jung: Ronald Poppe; Mannes Poel, ad Dirk KJ Heylen. Touching the void introducing cost: Corpus of social touch_ Proceedings of the IGth International Conference on Multimodal Interaction (ICMI). pages 120-127. ACM; Vovember 2014_ I66] Molisen Kaboli Alex Long; ""d Gordon Cheng: Humanoids lcarn touch modalitics identification multi-modal robotic skin and robust tactile descriptors. Aduanced Robotics. 29(21):41-1425 November 2015. [67] Holisen Kaboli Philipp Mittendorfer_ Vincent Hugel. ad Gorclon Cheng: Huanoids learn object properties from robust tactile feature dlescriptors via multi-modal artificial skin; In Ith IEEE-RAS Iaternational Conference on Haxmanoid Robots ( Hamaoids) . pages 187-192. IEEE; November 2014.","[57] Dana Hughes and Reza Zoughi. A method for evaluating the dielectric properties of composites using a combined embedded modulated scattering and near-ﬁeld microwave nondestructive testing technique. In Proceedings of the 18th IEEE Instrumentation and Measurement Technology Conference (IMTC), volume 3, pages 1882–1886. IEEE, May 2001. [58] Dana Hughes and Reza Zoughi. Near-ﬁeld microwave and embedded modulated scat- tering technique (mst) for dielectric characterization of materials. In Review of Progress in Quantitative Nondestructive Evaluation (QNDE), volume 22, pages 443–448, July 2002. [59] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop- erties of materials using a combined embedded modulated scattering and near-ﬁeld microwave techniques–part i: Forward model. IEEE Transactions on Instrumentation and Measurement, 54(6):2389, December 2005. [60] Dana Hughes and Reza Zoughi. A novel method for determination of dielectric prop- erties of materials using a combined embedded modulated scattering and near-ﬁeld microwave techniques–part ii: Dielectric property recalculation. IEEE Transactions on Instrumentation and Measurement, 54(6):2398–2401, December 2005. [61] Nathalie Japkowicz, Stephen Jos`e Hanson, and Mark A Gluck. Nonlinear autoassoci- ation is not equivalent to pca. Neural Computation, 12(3):531–545, March 2000. [62] Erik A Johnson, Heung-Fai Lam, Lambros S Katafygiotis, and James L Beck. Phase i iasc-asce structural health monitoring benchmark problem using simulated data. Jour- nal of Engineering Mechanics, 130(1):3–15, January 2004. [63] Merel M Jung. Towards social touch intelligence: Developing a robust system for automatic touch recognition. In Proceedings of the 16th International Conference on Multimodal Interaction (ICMI), pages 344–348. ACM, November 2014. [64] Merel M Jung, Xi Laura Cang, Mannes Poel, and Karon E MacLean. Touch chal- lenge’15: Recognizing social touch gestures. In Proceedings of the 2015 ACM on In- ternational Conference on Multimodal Interaction, pages 387–390. ACM, November 2015. [65] Merel M Jung, Ronald Poppe, Mannes Poel, and Dirk KJ Heylen. Touching the void– introducing cost: Corpus of social touch. In Proceedings of the 16th International Conference on Multimodal Interaction (ICMI), pages 120–127. ACM, November 2014. [66] Mohsen Kaboli, Alex Long, and Gordon Cheng. Humanoids learn touch modalities identiﬁcation via multi-modal robotic skin and robust tactile descriptors. Advanced Robotics, 29(21):1411–1425, November 2015. [67] Mohsen Kaboli, Philipp Mittendorfer, Vincent Hugel, and Gordon Cheng. Humanoids learn object properties from robust tactile feature descriptors via multi-modal artiﬁcial skin. In 14th IEEE-RAS International Conference on Humanoid Robots (Humanoids), pages 187–192. IEEE, November 2014. 69",2.062600448000012,375,False,0.0811665495432185,0.4015544041450777,0.6426666666666667,0.6243523316062176,0.633377135348226,386,375,EasyOCR,OCR,25.0,Sim,,best_transcription
+\end{tikzpicture}",ex]]. 9,24.135682988000557,510,False,134.0,32.0,0.0,0.0,0.0,2,64,GOT-OCR-2.0,VLM (OCR-spec),580.0,Burnt,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1408.5358.gz_generalized_cox_rings_43_ori,Through_Dust,1p0pct,107.tar_1408.5358.gz_generalized_cox_rings_43_ori,stepfun-ai/GOT-OCR2_0,ok,,"44 
+UlRICH DlRENTHAL AND MARTA PIEROPAN",44 ULRICH DERENTHAL AND MARTA PIEROPAN,3.0498024280022946,20,False,0.0263157894736842,0.1666666666666666,0.8333333333333334,0.8333333333333334,0.8333333333333334,6,6,GOT-OCR-2.0,VLM (OCR-spec),580.0,Dust,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1507.03120.gz_arxiv_23_ori,Through_Dust,1p0pct,107.tar_1507.03120.gz_arxiv_23_ori,stepfun-ai/GOT-OCR2_0,ok,,"[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans-
+mission of the one-dimensional array of delta potentials, Mod. Phys. Lett. B, 28,
+1450016 (2014)
+24","[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potetials, Mod. Phys. Lett. B, 28, 1450016 (2014) 24",5.252119501998095,69,False,0.0054347826086956,0.0344827586206896,0.9655172413793104,0.9655172413793104,0.9655172413793104,29,29,GOT-OCR-2.0,VLM (OCR-spec),580.0,Dust,1.0%,best_transcription
+text,White_Whitener__1p0pct__104.tar_1804.05908.gz_evg_pol_v3_23_ori,White_Whitener,1p0pct,104.tar_1804.05908.gz_evg_pol_v3_23_ori,Qwen/Qwen2.5-VL-3B-Instruct,ok,,"[BO99] C.M. Bender and S.A. Orszag. Advanced mathematical methods for scientists and engineers: I. Asymptotic methods and perturbation theory. Springer, 1999.
+
+[BP32] A. Bloch and G. Pólya. On the Roots of Certain Algebraic Equations. Proc. London Math. Soc., S2-33(1):102, 1932.
+
+[BRS86] A.T. Bharucha-Reid and M. Sambandham. Random polynomials. Probability and Mathematical Statistics. Academic Press, Inc., Orlando, FL, 1986.
+
+[BZ17] R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. Electron. Commun. Probab., 22:10 pp., 2017.
+
+[CP17] V.H. Can and V.H. Pham. Persistence probability of random weyl polynomials. arXiv: 1710.01090, 2017.
+
+[DH15] M.H. Duong and T.A. Han. On the expected number of equilibria in a multi-player multi-strategy evolutionary game. Dyn. Games and Applications, pages 1–23, 2015.
+
+[DH16] M.H. Duong and T.A. Han. Analysis of the expected density of internal equilibria in random evolutionary multi-player multi-strategy games. Journal of Mathematical Biology, 73(6):1727–1760, 2016.
+
+[DM15] A. Dembo and S. Mukherjee. No zero-crossings for random polynomials and the heat equation. Ann. Probab., 43(6):85–118, 02 2015.
+
+[DPSZ02] A. Dembo, B. Poonen, Q.-M. Shao, and O. Zeitouni. Random polynomials having few or no real zeros. Journal of the American Mathematical Society, 15(4):857–892, 2002.
+
+[DTH17a] M.H. Duong, H.M. Tran, and T.A. Han. On the distribution of the number of internal equilibria in random evolutionary games. arXiv: 1708.01672, 2017.
+
+[DTH17b] M.H. Duong, H.M. Tran, and T.A. Han. On the expected number of internal equilibria in random evolutionary games with correlated payoff matrix. arXiv: 1708.01672, 2017.
+
+[DV17] Y. Do and V. Yu. Central limit theorems for the real zeros of weyl polynomials. arXiv: 1707.09276, 2017.
+
+[Far98] K. Farahmand. Topics in Random Polynomials. Chapman & Hall/CRC Research Notes in Mathematics Series. Taylor & Francis, 1998.
+
+[FH92] D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. Journal of Economic Theory, 57(2):420–441, 1992.","[BO99] C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. [BP32] A. Bloch and G. Po´lya. On the Roots of Certain Algebraic Equations. Proc. London Math. Soc., S2-33(1):102, 1932. [BRS86] A. T. Bharucha-Reid and M. Sambandham. Random polynomials. Probability and Mathematical Statistics. Academic Press, Inc., Orlando, FL, 1986. [BZ17] R. Butez and O. Zeitouni. Universal large deviations for kac polynomials. Electron. Commun. Probab., 22:10 pp., 2017. [CP17] V. H. Can and V. H. Pham. Persistence probability of random weyl polynomial. arXiv: 1710. 01090 , 2017. [DH15] M. H. Duong and T. A. Han. On the expected number of equilibria in a multi- player multi-strategy evolutionary game. Dynamic Games and Applications, pages 1–23, 2015. [DH16] M. H. Duong and T. A. Han. Analysis of the expected density of internal equilibria in random evolutionary multi-player multi-strategy games. Journal of Mathematical Biology, 73(6):1727–1760, 2016. [DM15] A. Dembo and S. Mukherjee. No zero-crossings for random polynomials and the heat equation. Ann. Probab., 43(1):85–118, 02 2015. [DPSZ02] A. Dembo, B. Poonen, Q.-M. Shao, and O. Zeitouni. Random polynomials having few or no real zeros. Journal of the American Mathematical Society, 15(4):857–892, 2002. [DTH17a] M. H. Duong, H. M. Tran, and T. A. Han. On the distribution of the number of internal equilibria in random evolutionary games. arXiv: 1708. 01672 , 2017. [DTH17b] M. H. Duong, H. M. Tran, and T. A. Han. On the expected number of internal equilibria in random evolutionary games with correlated payoﬀ matrix. arXiv: 1708. 01672 , 2017. [DV17] Y. Do and V. Vu. Central limit theorems for the real zeros of weyl polynomials. arXiv: 1707. 09276 , 2017. [Far98] K. Farahmand. Topics in Random Polynomials. Chapman & Hall/CRC Re- search Notes in Mathematics Series. Taylor & Francis, 1998. [FH92] D. Fudenberg and C. Harris. Evolutionary dynamics with aggregate shocks. Journal of Economic Theory, 57(2):420–441, 1992. 24",112.15870587100652,734,False,0.0192307692307692,0.16875,0.9078498293515358,0.83125,0.867862969004894,320,293,Qwen2.5-VL-3B (4-bit),VLM,3000.0,Fluid,1.0%,best_transcription
+text,White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori,White_Burnt,1p0pct,102.tar_1408.2843.gz_D_asymmetry_8_ori,Qwen/Qwen2.5-VL-3B-Instruct,ok,,ex].,ex]]. 9,1.334096999999019,3,False,0.4285714285714285,1.0,0.0,0.0,0.0,2,1,Qwen2.5-VL-3B (4-bit),VLM,3000.0,Burnt,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1408.5358.gz_generalized_cox_rings_43_ori,Through_Dust,1p0pct,107.tar_1408.5358.gz_generalized_cox_rings_43_ori,Qwen/Qwen2.5-VL-3B-Instruct,ok,,"44
+ULRICH DERNENTHAL AND MARTA PIEROPAN",44 ULRICH DERENTHAL AND MARTA PIEROPAN,3.620364399976097,18,False,0.0263157894736842,0.1666666666666666,0.8333333333333334,0.8333333333333334,0.8333333333333334,6,6,Qwen2.5-VL-3B (4-bit),VLM,3000.0,Dust,1.0%,severe_failure
+text,Through_Dust__1p0pct__107.tar_1507.03120.gz_arxiv_23_ori,Through_Dust,1p0pct,107.tar_1507.03120.gz_arxiv_23_ori,Qwen/Qwen2.5-VL-3B-Instruct,ok,,"[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant transmission of the one-dimensional array of delta potentials, Mod. Phys. Lett. B, 28, 1450016 (2014)","[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potetials, Mod. Phys. Lett. B, 28, 1450016 (2014) 24",5.077536600001622,66,False,0.0326086956521739,0.1379310344827586,0.925925925925926,0.8620689655172413,0.8928571428571429,29,27,Qwen2.5-VL-3B (4-bit),VLM,3000.0,Dust,1.0%,best_transcription

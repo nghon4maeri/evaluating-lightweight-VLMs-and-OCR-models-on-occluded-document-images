@@ -1,164 +1,57 @@
-# Qualitative Case Studies
+# Qualitative Case Studies (OPRB Benchmark)
 
-## `Through_Dust__0p5pct__106.tar_1606.01701.gz_main9_20_ori` (best_transcription | text | Through_Dust @ 0p5pct)
-**Ground Truth (first 300 chars):** for a different penalty or prior distribution speciﬁcation for bond prediction. 5 Discussion By exploiting the fundamental duality between regularization penalties and prior distribu- tions, we provide a MAP approach that jointly regularizes both expected values and variance- covariance matrices for
+## Sample: `Through_Dust__1p0pct__107.tar_1507.03120.gz_arxiv_23_ori`
+- **Group:** best_transcription | **Category:** text | **Type:** Through_Dust @ 1p0pct
+- **Ground Truth (first 250 chars):** `[42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potetials, Mod. Phys. Lett. B, 28, 1450016 (2014) 24...`
 
-- **GOT-OCR2.0** (CER=0.003, WER=0.015): for a different penalty or prior distribution specification for bond prediction.
-5 Discussion
-By exploiting the fundamental duality between regularization penalties and prior distribu-
-tions, we provide a MAP approach that jointly regularizes both ex
-- **PaddleOCR (PP-OCRv4)** (CER=0.036, WER=0.401): fora different penalty or prior distribution specification for bond prediction. 5Discussion By exploiting the fundamental dualityberween'regularization penalties and prior distribu- tions,we providea MAP approach that jointly regularizesboth expected
-- **EasyOCR** (CER=0.043, WER=0.136): for different penalty or prior distribution specification for bond Prediction: Discussion By exploiting the fundamental duality between regularization Penalties and prior distribu- tions; we provide MAP approach that jointly regularizes both expected
+| Model | CER | WER | Prediction (excerpt) |
+| :--- | :---: | :---: | :--- |
+| **PaddleOCR (PP-OCRv4)** | 0.000 | 0.000 | [42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potetials, Mod. Phys. Lett. B, 28, 1450016 (2014... |
+| **EasyOCR** | 0.130 | 0.483 | [42] Cordourier-Maruri. G  Gupta; V and de Coss, R:: Recurrence in resonant trans- mission of thcone-dlimeusional ATTAY of delta potetials Mod, Fhvs Lett. BS 228 1450016 (2014)... |
+| **SmolVLM-Instruct** | 0.060 | 0.207 | Cordourier-Marui, G., Gupta, V., and de Coss, R.: Recurence in resonant trans- mission of the one-dimensional array of delta potentials, Mod. Phys. Lett. B, 28, 1450016 (2014).... |
+| **GOT-OCR-2.0** | 0.005 | 0.034 | [42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant trans- mission of the one-dimensional array of delta potentials, Mod. Phys. Lett. B, 28, 1450016 (201... |
+| **Qwen2.5-VL-3B (4-bit)** | 0.033 | 0.138 | [42] Cordourier-Maruri, G., Gupta, V., and de Coss, R.: Recurrence in resonant transmission of the one-dimensional array of delta potentials, Mod. Phys. Lett. B, 28, 1450016 (2014)... |
 
-## `Sim__110.tar_1606.03508.gz_prelim_68_ori` (best_transcription | text | Sim @ 110.tar_1606.03508.gz_prelim_68_ori)
-**Ground Truth (first 300 chars):** [57] Dana Hughes and Reza Zoughi. A method for evaluating the dielectric properties of composites using a combined embedded modulated scattering and near-ﬁeld microwave nondestructive testing technique. In Proceedings of the 18th IEEE Instrumentation and Measurement Technology Conference (IMTC), vol
+---
 
-- **GOT-OCR2.0** (CER=0.002, WER=0.010): [57] Dana Hughes and Reza Zoughi. A method for evaluating the dielectric properties of
-composites using a combined embedded modulated scattering and near-ﬁeld microwave
-nondestructive testing technique. In Proceedings of the 18th IEEE Instrumentation
-- **PaddleOCR (PP-OCRv4)** (CER=0.027, WER=0.262): [57] Dana Hughes and Reza Zoughi.A method for evaluating the dielectric properties of composites using a combined embedded modulated scattering and near-fieldmicrowave nondestructive testing technique.In Proceedings of the 18th IEEE Instrumentation a
-- **EasyOCR** (CER=0.081, WER=0.402): Dana Hughes and Reza Zoughi: method for evaluating the dielectric properties of composites using combined embedded modulated scattering and near-field microwave HOnclestructive tecting techuicque In Prxceedings of the ISth IEEE Iustrumentation ad Meo
+## Sample: `White_Whitener__1p0pct__104.tar_1804.05908.gz_evg_pol_v3_23_ori`
+- **Group:** best_transcription | **Category:** text | **Type:** White_Whitener @ 1p0pct
+- **Ground Truth (first 250 chars):** `[BO99] C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. [BP32] A. Bloch and G. Po´lya. On the Roots of Certain Algebraic Equations. Proc. London ...`
 
-## `White_Burnt__1p0pct__102.tar_1507.00299.gz_PhD_thesis_ETH_arxiv_136_ori` (severe_failure | text | White_Burnt @ 1p0pct)
-**Ground Truth (first 300 chars):** 132
+| Model | CER | WER | Prediction (excerpt) |
+| :--- | :---: | :---: | :--- |
+| **PaddleOCR (PP-OCRv4)** | 0.064 | 0.431 | [BO99] C.M.Bender and S.A.Orszag.Aduanced mathematical methods for scientists and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999. [BP32] A.Bloch and G.Pol... |
+| **EasyOCR** | 0.140 | 0.553 | [BO99] C.M; Beuder aud $ A. Orszag- Advanced mathematical methods for scientists and engincers: [: Asymptotic methods and perturbation thcory: Springer, 1999. [BP32] Bloch and G Po... |
+| **SmolVLM-Instruct** | 0.074 | 0.159 | BO99 C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists and engineers: Asymptotic methods and perturbation theory. Springer, 1999. BP32 A. Bloch and G. P´o... |
+| **GOT-OCR-2.0** | 0.021 | 0.084 | [BO99]  C. M. Bender and S. A. Orszag. Advanced mathematical methods for scientists  and engineers: I: Asymptotic methods and perturbation theory. Springer, 1999.  [BP32]  A. Bloch... |
+| **Qwen2.5-VL-3B (4-bit)** | 0.019 | 0.169 | [BO99] C.M. Bender and S.A. Orszag. Advanced mathematical methods for scientists and engineers: I. Asymptotic methods and perturbation theory. Springer, 1999.  [BP32] A. Bloch and ... |
 
-- **GOT-OCR2.0** (CER=170.333, WER=256.000): 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
-- **PaddleOCR (PP-OCRv4)** (CER=0.000, WER=0.000): 132
-- **EasyOCR** (CER=0.667, WER=1.000): 02
+## Sample: `White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori`
+- **Group:** severe_failure | **Category:** text | **Type:** White_Burnt @ 1p0pct
+- **Ground Truth (first 250 chars):** `ex]]. 9...`
 
-## `White_Burnt__1p0pct__102.tar_1408.2843.gz_D_asymmetry_8_ori` (severe_failure | text | White_Burnt @ 1p0pct)
-**Ground Truth (first 300 chars):** ex]]. 9
+| Model | CER | WER | Prediction (excerpt) |
+| :--- | :---: | :---: | :--- |
+| **PaddleOCR (PP-OCRv4)** | 0.429 | 1.000 | exl].... |
+| **EasyOCR** | 0.714 | 1.000 | exll:... |
+| **SmolVLM-Instruct** | 0.857 | 1.000 | wall.... |
+| **GOT-OCR-2.0** | 134.000 | 32.000 | \begin{tikzpicture} \draw[line width=1.04pt,color=brown,opacity=0.3] (-2.56,0.79) -- (0.85,0.79);     \draw[line width=1.04pt,color=brown,opacity=0.3] (-2.56,0.79) -- (-0.99,4.58);... |
+| **Qwen2.5-VL-3B (4-bit)** | 0.429 | 1.000 | ex].... |
 
-- **Qwen2.5-VL-3B (4-bit)** (CER=0.429, WER=1.000): ex].
-- **GOT-OCR2.0** (CER=134.000, WER=32.000): \begin{tikzpicture}
-\draw[line width=1.04pt,color=brown,opacity=0.3] (-2.56,0.79) -- (0.85,0.79);
-    \draw[line width=1.04pt,color=brown,opacity=0.3] (-2.56,0.79) -- (-0.99,4.58);
-    \draw[line width=1.04pt,color=brown,opacity=0.3] (0.85,0.79) -- (
-- **SmolVLM-Instruct** (CER=0.857, WER=1.000): wall.
-- **PaddleOCR (PP-OCRv4)** (CER=0.429, WER=1.000): exl].
-- **EasyOCR** (CER=0.714, WER=1.000): exll:
+---
+
+## Sample: `Through_Dust__1p0pct__107.tar_1408.5358.gz_generalized_cox_rings_43_ori`
+- **Group:** severe_failure | **Category:** text | **Type:** Through_Dust @ 1p0pct
+- **Ground Truth (first 250 chars):** `44 ULRICH DERENTHAL AND MARTA PIEROPAN...`
+
+| Model | CER | WER | Prediction (excerpt) |
+| :--- | :---: | :---: | :--- |
+| **PaddleOCR (PP-OCRv4)** | 0.079 | 0.167 | ULRICH DERENTHAL AND MARTA PIEROPAN... |
+| **EasyOCR** | 0.211 | 0.667 | ULRICT DERENTHAL At MAFETA PIEROPAN... |
+| **SmolVLM-Instruct** | 26.842 | 0.833 | 44 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111... |
+| **GOT-OCR-2.0** | 0.026 | 0.167 | 44  UlRICH DlRENTHAL AND MARTA PIEROPAN... |
+| **Qwen2.5-VL-3B (4-bit)** | 0.026 | 0.167 | 44 ULRICH DERNENTHAL AND MARTA PIEROPAN... |
+
+---

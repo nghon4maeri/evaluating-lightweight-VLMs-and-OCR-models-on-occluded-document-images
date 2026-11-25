@@ -3,7 +3,7 @@
 > **Course:** Natural Language Processing (CSC15006)  
 > **Benchmark Dataset:** [OPRB – Occluded Pages Restoration Benchmark](https://huggingface.co/datasets/kpurkayastha/OPRB)  
 > **Evaluation Mode:** Zero-shot Pretrained Inference (Strictly No Fine-tuning on Test Split)  
-> **Total Evaluated Pages:** 22,103 document pages across 5 representative architectures  
+> **Total Evaluated Pages:** 22,367 document pages across 5 representative architectures ($\ge 1,000$ pages per model)  
 
 ---
 
@@ -21,12 +21,12 @@ This benchmark evaluates **transcription fidelity** (CER, WER, Bag-of-Words F1) 
 
 ## Benchmark Summary Results
 
-Evaluated across **22,103 pages** on NVIDIA GPU hardware:
+Evaluated across **22,367 pages** on NVIDIA GPU hardware ($\ge 1,000$ pages per model):
 
 | Model | Category | Parameters | Evaluated Pages | Macro CER ↓ | Macro WER ↓ | Token Prec. ↑ | Token Rec. ↑ | Token F1 ↑ | Mean Latency ↓ |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **PaddleOCR (PP-OCRv4)** | OCR Pipeline | **12.0M** | **9,000** (Full Test) | **0.3956** | 0.6174 | 0.7560 | 0.4502 | 0.5487 | **1.14s / page** |
-| **Qwen2.5-VL-3B (4-bit)** | Generalist VLM | 3,000.0M | 736 | 0.4729 | **0.5712** | **0.7803** | **0.5590** | **0.6309** | 102.99s / page |
+| **Qwen2.5-VL-3B (4-bit)** | Generalist VLM | 3,000.0M | **1,000** | 0.4774 | **0.5716** | **0.7809** | **0.5576** | **0.6301** | 91.60s / page |
 | **EasyOCR** | OCR Pipeline | 25.0M | **9,000** (Full Test) | 0.5822 | 0.8184 | 0.4387 | 0.3014 | 0.3501 | **2.54s / page** |
 | **GOT-OCR-2.0** | VLM (OCR-spec) | 580.0M | 2,208 | 0.6788 | 0.8501 | 0.6159 | 0.4332 | 0.4765 | 33.88s / page |
 | **SmolVLM-Instruct** | Lightweight VLM | 2,200.0M | 1,159 | 0.8782 | 0.9543 | 0.6212 | 0.1778 | 0.2183 | 10.92s / page |
